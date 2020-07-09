@@ -2,6 +2,7 @@ package com.kh.run;
 
 import com.kh.first.AB_MP_VP_Day1;
 import com.kh.first.Test;
+import com.kh.first.VariableCasting;
 
 public class Run {
 
@@ -14,10 +15,20 @@ public class Run {
 	
 	//a.printValue();
 	
-	a.sumStringNumber();
+	//a.sumStringNumber();
 	
 	Test t = new Test();
-	//t.test1();
+	t.test1();
+	t.test2();
+	t.test3();
+	t.test4();
+	t.test5();
+	
+	VariableCasting vc = new VariableCasting();
+	//vc.method1();
+	//vc.method2();
+	//vc.method3();
+	//vc.method4();
 	
 	}
 	
