@@ -72,10 +72,12 @@ public class VariableCasting { // 클래스 시작
 		char ch1 = str.charAt(0);
 		char ch2 = str.charAt(1);
 		char ch3 = str.charAt(2);
+		char ch4 = str.charAt(3);
 		
 		System.out.println("첫번째 문자 : " + ch1);
 		System.out.println("두번째 문자 : " + ch2);
 		System.out.println("세번째 문자 : " + ch3);
+		System.out.println("네번째 문자 : " + ch4);
 		
 	}
 	
