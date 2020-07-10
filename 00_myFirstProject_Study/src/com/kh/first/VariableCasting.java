@@ -81,4 +81,62 @@ public class VariableCasting { // 클래스 시작
 		
 	}
 	
+	// ------------------------------------ 
+	
+	public void method4() {
+		Scanner sc = new Scanner(System.in);
+		
+		//내가 쓴거...
+		//System.out.println("문자 : ");
+		//String word = sc.nextLine();
+		
+		//int num = ''
+		//System.out.println("num : " + num);
+		
+		System.out.print("문자 : ");
+		char ch = sc.nextLine().charAt(0);
+		
+		// 첫번째 방법 : 사용자에게 입력받아 기록된 문자값을 int형 변수에 옮겨 담은 후 출력하기
+		/*
+		 * int num = ch; // ch에 담긴 문자가 int형 변수에 담기는 순간 그 문자의 고유한 유니코드값(숫자)이 담김
+		 * System.out.println(ch + " unicode : " + num);
+		 */
+		
+		// 두번쨰 방법 : 사용자에게 입력받아 기록된 문자값을 강제로 int형으로 강제형변환해서 바로 출력하기
+		System.out.println(ch + " unicode " + (int)ch);
+		
+	}
+	
+	public void method5() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("국어 : ");
+		double kor = sc.nextDouble();
+		
+		System.out.print("영어 : ");
+		double eng = sc.nextDouble();
+		
+		System.out.print("수학 : ");
+		double math = sc.nextDouble();
+		
+		// 첫번째 방법 : 사용자가 입력한 국어, 영어, 수학 값을 가지고 총점, 평균을 구해 각 변수에 담은 후 출력하기
+				/*
+				int sum = (int)(kor + eng + math); // kor+eng+math 연산한 결과 자료형은 최종적으로 double형임 int형에 담을 수 없기 때문에 강제형변환해야됨
+				int avg = sum / 3;
+				
+				System.out.println("총점 : " + sum);
+				System.out.println("평균 : " + avg);
+				*/
+		
+		// 두번째 방법 : 사용자가 입력한 국어, 영어, 수학 값을 가지고 총점, 평균을 구한 값을 바로 출력하기
+		System.out.println("총점 : " + (int)(kor + eng + math));
+		
+		System.out.println("평균 : " + (int)((kor + eng + math) / 3));
+		// 경우1. 다 더하고 난 후 나눗셈까지 한 결과를 가지고 int로 강제형변환
+		System.out.println("평균 : " + (int)(kor + eng + math) / 3);
+		// 경우2. 다 더한값을 가지고 int로 강제형변환한 후 3으로 나누기 
+	
+	}
+	
+	
 }
