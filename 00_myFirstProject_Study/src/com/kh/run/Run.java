@@ -30,6 +30,8 @@ public class Run {
 	//vc.method3();
 	//vc.method4();
 	//vc.method5();
+	//vc.method6();
+	//vc.method7();
 	
 	}
 	
