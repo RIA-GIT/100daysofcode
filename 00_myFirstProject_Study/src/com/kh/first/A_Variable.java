@@ -172,6 +172,6 @@ public class A_Variable {
 				
 				// * 한글을 사용하지 않는게 권장사항
 				String 이름; 		 // 오류는 아니지만 권장x
-				
+				 
 			}
 	} 
