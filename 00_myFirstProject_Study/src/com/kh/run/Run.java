@@ -1,6 +1,8 @@
 package com.kh.run;
 
 import com.kh.first.AB_MP_VP_Day1;
+import com.kh.first.A_Variable;
+import com.kh.first.B_KeyboardInput;
 import com.kh.first.Test;
 import com.kh.first.VariableCasting;
 
@@ -34,7 +36,17 @@ public class Run {
 	//vc.method7();
 	}
 	
-	
-	
+
+	A_Variable a = new A_Variable();
+	// 실행할 메소드 호출
+	//a.printVariable();
+	//a.declareVariable();
+	//a.initVariable();
+					
+	B_KeyboardInput b = new B_KeyboardInput();
+	//b.inputScanner1();
+	//b.inputScanner2();
+	//b.inputScanner3();
+		
 
 }
